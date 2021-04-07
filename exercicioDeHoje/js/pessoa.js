@@ -14,7 +14,6 @@ else {
         alert("escreva apenas feminino ou masculino.");
         sexo = prompt('qual seu sexo ?[M/F]:').toUpperCase().substr(0, 1);
     }
-       break
 }
 
 let pessoa = {
