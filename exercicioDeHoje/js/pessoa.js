@@ -12,9 +12,9 @@ else if (sexo == "F"){
 else {
     while (sexo != "M" || sexo != "F"){
         alert("escreva apenas feminino ou masculino.");
-        var sexo = prompt('qual seu sexo ?[M/F]:').toUpperCase().substr(0, 1);
+        sexo = prompt('qual seu sexo ?[M/F]:').toUpperCase().substr(0, 1);
     }
-    break
+       break
 }
 
 let pessoa = {
